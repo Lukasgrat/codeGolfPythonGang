@@ -1,0 +1,11 @@
+i=int(input())
+j=0
+x=1
+y=0
+t=0
+while(j<i):
+    t=x
+    x=x+y
+    y=t
+    j+=1
+print(y)
